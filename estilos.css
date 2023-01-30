@@ -1,0 +1,463 @@
+
+header {   /**Diseño del fondo de la cabecera*/
+    background-color: #FFFFFF;
+}
+
+h1 {
+  font-size: 70px;
+  color: #FFFFFF;   /**Color de las letras en h1*/
+  font-family: Times New Roman;
+}
+
+h2 {
+  font-size: 40px;
+  text-align: center;
+  text-decoration: underline;    /**Subrayado en h2*/
+  color: blue;   /**Color de las letras en h2*/
+  font-family: Calibri;
+}
+
+h3 {      
+  color: blue;  /**Color de las letras en h3*/
+  text-decoration: underline;  /**Subrayado en h3*/
+  font-family: Calibri;
+  font-size: 25px;
+}
+
+footer {         /**Diseño del fondo del die de página*/
+  background-color: #FFFFFF;
+}
+
+#pie {	         /**Formato de pie de página*/ 
+  text-align:center;
+  width:95%;
+  padding:4px;
+  margin:50px;
+
+}
+
+#pie li {            /**Formato de la lista en pie de página*/ 
+  display:inline;
+}
+
+#gmail {            /**Tamaño del icono de gmail en el pie de página*/
+  width: 28px; 
+  height: 28px;  
+}
+
+#outlook {            /**Tamaño del icono de outlook en el pie de página*/
+  width: 38px; 
+  height: 30px;  
+}
+
+#github {            /**Tamaño del icono de github en el pie de página*/
+  width: 30px; 
+  height: 30px;  
+}
+
+#whatsapp {          /**Ubicación del icono de whatsapp*/
+  bottom:80px;
+  position: fixed;
+  right: 5%;	
+}
+
+#arriba {            /**Ubicación del icono de arriba*/
+  width: 1.6%; 
+  height: 3%;
+  bottom:130px;
+  position: fixed;
+  left: 5%;
+}
+
+#menudesplegable{    /**Margenes del menú desplegable*/
+  margin-top: 60px;
+  margin-left: 10%;
+  font-family: Calibri;
+}
+
+#Datos-Per {          /**Margenes del apartado Datos Personales*/
+  margin-top: 60px;
+}
+
+#DatosPer {          /**Estilo de letras de la lista*/
+  font-family: Calibri;
+  font-size: 20px;
+}
+
+#Apt {                /**Margenes del apartado Aptitudes*/
+  margin-top: 60px;
+}
+
+#Aptitud {                /**Estilo de letras de la lista*/
+  font-family: Calibri;
+  font-size: 20px;
+}
+
+#Ed {                 /**Margenes del apartado Educación*/
+  margin-top: 60px;
+}
+
+#Educ {                 /**Estilo de letras de la lista*/
+  font-family: Calibri;
+  font-size: 20px;
+}
+
+#Cursos-R {           /**Margenes del apartado Cursos Realizados*/
+  margin-top: 60px;
+}
+
+#Cursos {           /**Estilo de letras de la lista*/
+  font-family: Calibri;
+  font-size: 20px;
+}
+
+#Exp-Lab {            /**Margenes del apartado Experiencia Laboral*/
+  margin-top: 60px;
+}
+
+#Exp-L {            /**Estilo de letras de la lista*/
+  font-family: Calibri;
+  font-size: 20px;
+}
+
+#Obj {                /**Margenes del apartado Objetivos*/
+  margin-top: 60px;
+}
+
+#Objet {                /**Estilo de letras de la lista*/
+  font-family: Calibri;
+  font-size: 20px;
+}
+
+#Act-Inde {           /**Margenes del apartado Actividades Independientes*/
+  margin-top: 60px; 
+}
+
+#Act-I {           /**Estilo de letras de la lista*/
+  font-family: Calibri;
+  font-size: 20px;
+}
+
+#Inicio {            /**Margenes del Icono para subir Arriba en la página*/
+  margin-top: 60px; 
+}
+
+#Certificado{        /**Margenes del Icono para ver los certificados en la otra pag*/
+  margin-top: 60px;
+}
+
+#Comentario{        /**Margenes del Icono para hacer los comentarios*/
+  margin-top: 60px;
+}
+
+ul.alineado {       /**Alineado de las listas UL*/
+  margin-left: 8%;
+}
+
+
+
+/**Diseño del Formulario*/
+
+
+form{				/*Diseño del formulario y del texto*/
+	width:400px;
+	padding:16px;
+	border-radius:10px;
+	margin-top: 10px;
+	margin-left: 9%;
+	font-family: Calibri;
+	font-size: 20px;
+}
+
+form label{
+	width:98px;
+	font-weight:bold;
+	display:inline-block;
+}
+
+form input[type="text"],
+
+form input[type="email"]{	/*Diseño del renglón de entrada de texto*/
+	width:180px;
+	padding:3px 10px;
+	border:1px solid #A9A9A9;
+	border-radius:3px;
+	background-color:#DCDCDC;
+	margin:8px 0;
+	display:inline-block;
+}
+
+textarea{			/*Diseño del cuadro de comentarios*/
+	width:100%;
+	height:100px;
+	border:1px solid #A9A9A9;
+	border-radius:3px;
+	background-color:#DCDCDC;			
+	margin:8px 0;
+	resize:none;
+	display:block;
+}
+
+form input[type="submit"]{	/*Diseño del botón enviar*/
+	width:100%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid #000;
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:blue;
+} 
+
+form input[type="submit"]:hover{
+	cursor:pointer;
+}
+
+form input[type="reset"]{	/*Diseño del botón borrar*/
+	width:100%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid #000;
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:blue;
+} 
+
+form input[type="reset"]:hover{
+	cursor:pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+
+
+  
+h1 {
+  font-size: 20px;
+  color: #FFFFFF;   /**Color de las letras en h1*/
+  font-family: Times New Roman;
+}
+
+h2 {
+  font-size: 20px;
+  text-align: center;
+  text-decoration: underline;    /**Subrayado en h2*/
+  color: blue;   /**Color de las letras en h2*/
+  font-family: Calibri;
+}
+
+h3 {      
+  color: blue;  /**Color de las letras en h3*/
+  text-decoration: underline;  /**Subrayado en h3*/
+  font-family: Calibri;
+  font-size: 20px;
+}
+
+footer {         /**Diseño del fondo del die de página*/
+  background-color: #FFFFFF;
+}
+
+#pie {	         /**Formato de pie de página*/ 
+  text-align:center;
+  width:70%;
+  padding:5px;
+  margin:40px;
+
+}
+
+#pie li {            /**Formato de la lista en pie de página*/ 
+  display:list;
+}
+
+#copyright {         /**Tamaño del texto en el pie de página*/
+  font-size: 9px; 
+}
+
+#gmail {            /**Tamaño del icono de gmail en el pie de página*/
+  width: 18px; 
+  height: 18px;  
+}
+
+#outlook {            /**Tamaño del icono de outlook en el pie de página*/
+  width: 28px; 
+  height: 20px;  
+}
+
+#github {            /**Tamaño del icono de github en el pie de página*/
+  width: 20px; 
+  height: 20px;  
+}
+
+#whatsapp {          /**Ubicación del icono de whatsapp*/
+  bottom:40px;  
+  right: 2%;	
+}
+
+#arriba {            /**Ubicación del icono de arriba*/
+  width: 4%; 
+  height: 2%;
+  bottom:13%;
+  position: fixed;
+  left: 5%;
+}
+
+#menudesplegable{    /**Margenes del menú desplegable*/
+  margin-top: 50px;
+  margin-left: 10%;
+  font-family: Calibri;
+}
+
+#Datos-Per {          /**Margenes del apartado Datos Personales*/
+  margin-top: 50px;
+}
+
+#DatosPer {          /**Estilo de letras de la lista*/
+  font-family: Calibri;
+  font-size: 14px;
+}
+
+#Apt {                /**Margenes del apartado Aptitudes*/
+  margin-top: 50px;
+}
+
+#Aptitud {                /**Estilo de letras de la lista*/
+  font-family: Calibri;
+  font-size: 14px;
+}
+
+#Ed {                 /**Margenes del apartado Educación*/
+  margin-top: 50px;
+}
+
+#Educ {                 /**Estilo de letras de la lista*/
+  font-family: Calibri;
+  font-size: 14px;
+}
+
+#Cursos-R {           /**Margenes del apartado Cursos Realizados*/
+  margin-top: 50px;
+}
+
+#Cursos {           /**Estilo de letras de la lista*/
+  font-family: Calibri;
+  font-size: 14px;
+}
+
+#Exp-Lab {            /**Margenes del apartado Experiencia Laboral*/
+  margin-top: 50px;
+}
+
+#Exp-L {            /**Estilo de letras de la lista*/
+  font-family: Calibri;
+  font-size: 14px;
+}
+
+#Obj {                /**Margenes del apartado Objetivos*/
+  margin-top: 50px;
+}
+
+#Objet {                /**Estilo de letras de la lista*/
+  font-family: Calibri;
+  font-size: 14px;
+}
+
+#Act-Inde {           /**Margenes del apartado Actividades Independientes*/
+  margin-top: 50px; 
+}
+
+#Act-I {           /**Estilo de letras de la lista*/
+  font-family: Calibri;
+  font-size: 14px;
+}
+
+#Inicio {            /**Margenes del Icono para subir Arriba en la página*/
+  margin-top: 50px; 
+}
+
+
+
+
+
+
+/**Diseño del Formulario*/
+
+
+form{				/*Diseño del formulario y del texto*/
+	width:300px;
+	padding:14px;
+	border-radius:8px;
+	margin-top: 8px;
+	margin-left: 8%;
+	font-family: Calibri;
+	font-size: 18px;
+}
+
+form label{
+	width:90px;
+	font-weight:bold;
+	display:inline-block;
+}
+
+form input[type="text"],
+
+form input[type="email"]{	/*Diseño del renglón de entrada de texto*/
+	width:180px;
+	padding:3px 10px;
+	border:1px solid #A9A9A9;
+	border-radius:3px;
+	background-color:#DCDCDC;
+	margin:8px 0;
+	display:inline-block;
+}
+
+textarea{			/*Diseño del cuadro de comentarios*/
+	width:100%;
+	height:100px;
+	border:1px solid #A9A9A9;
+	border-radius:3px;
+	background-color:#DCDCDC;			
+	margin:8px 0;
+	resize:none;
+	display:block;
+}
+
+form input[type="submit"]{	/*Diseño del botón enviar*/
+	width:100%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid #000;
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:blue;
+} 
+
+form input[type="submit"]:hover{
+	cursor:pointer;
+}
+
+form input[type="reset"]{	/*Diseño del botón borrar*/
+	width:100%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid #000;
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:blue;
+} 
+
+form input[type="reset"]:hover{
+	cursor:pointer;
+}
+

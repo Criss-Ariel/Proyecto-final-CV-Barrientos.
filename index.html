@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="es">
+   <head>
+    	<meta charset="UTF-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Viewport sirve para adaptar la web a los distintos dispositivos-->
+    	<title>CV: Barrientos Molina</title>
+    	<link rel="icon" type="image/x-icon" href="Icono.jpg"> <!--Fav icon es el icono de la web-->
+    	<link rel="stylesheet" type="text/css" href="estilos.css">
+	<script src="formulario.js"></script>
+
+    <style> 
+        
+	.flex-container {  	/**Estilo del encabezado con foto y nombre*/
+  		display: flex;
+  		align-items: stretch;
+  		background-color:blue;
+	}
+
+	.flex-container > div {
+ 		background-color:fff;
+  		width: 500px;
+  		margin: 10px;
+  		text-align: center;
+  		line-height: 75px;
+  		font-size: 30px;
+	}
+
+
+        .dropdown {   	      /**Estilo del menú desplegable, en este caso aplicado a texto con contenido desplegable*/
+          position: relative;
+          display: inline-block;
+        }
+        
+        .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #f9f9f9f9;
+          min-width: 160px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,2);
+          z-index: 1;
+        }
+        
+        .dropdown-content a {
+          color: black;
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+        }
+        
+        .dropdown-content a:hover {
+            background-color: #e0dfdf;
+            color: blue;       
+        }
+        
+        .dropdown:hover .dropdown-content {
+          display: block;
+        }
+
+        
+    </style>
+       
+    </head>
+
+    <body>
+    
+    <header>
+
+            <h2 id="Inicio"> Currículum Vitae </h2>              <!--id= "Inicio": marcador para ir a la parte superior de la página con el botón de "ir arriba"-->
+
+	    <div class="flex-container">   <!--Encabezado con foto y nombre-->
+  		<div style="margin-left: 85px"><img src="Barrientos.jpg" alt="Foto del postulante" style="width: 72%; height: 97%;"></div>
+  		<div style="flex-basis: 1000px"> <h1>Barrientos Molina Christopher Ariel</h1></div>
+    
+	   </div>
+
+    </header>
+
+    <section> 
+
+	<article>  
+	    <div id="whatsapp">      <!--Ubicación del icono de whatsapp-->			
+			<a href="https://api.whatsapp.com/send?phone=5493814471074" class="btn-wsp" target="_blank"><img src="https://irp-cdn.multiscreensite.com/cdf69c36/dms3rep/multi/whatsapp_icon.png" border="0">
+			<i class="icon-whatsapp"></i>
+			</a>
+	    </div>
+
+	</article>
+
+
+        <article>
+            
+	    <div id="menudesplegable">     <!--Texto con contenido desplegable-->
+           	 <div class="dropdown"> 
+                   	<span><h3><b>Mí Información</b></h3></span>
+               	    
+			<div class="dropdown-content">
+
+                   	<a href="#Datos-Per">Datos Personales</a>  <!--"#Datos Per": marcador a dicha sección-->
+                    	<a href="#Apt">Aptitudes</a>
+                    	<a href="#Ed">Educación</a>
+                    	<a href="#Cursos-R">Cursos Realizados</a>
+                   	<a href="#Exp-Lab">Experiencia Laboral</a>
+                   	<a href="#Obj">Objetivos</a>
+                   	<a href="#Act-Inde">Actividades Independientes</a>
+			<a href="certificados.html">Certificados</a>
+			<a href="#Comentario">Déjame tu Comentario</a>
+
+                    </div>
+                </div>
+	    </div>
+            
+        </article>
+
+        <article>
+            
+            <ul id="DatosPer" class="alineado"><h3 id="Datos-Per">Datos Personales</h3>   <!--id="Datos-Per": marcador a dicha sección-->
+                <li>Nacionalidad: Argentino.</li>
+		<li>Provincia: Tucumán.</li>
+                <li>Lugar de Nacimiento: San Miguel De Tucumán.</li>
+		<li>Lugar de Residencia: San Miguel De Tucumán.</li>
+		<li>Domicilio: Pje. Agustín Mazza 500.</li>
+		<li>Fecha de Nacimiento: 09/10/88.</li>
+		<li>Edad: 34.</li>
+		<li>DNI: 32123123.</li>
+                <li>Estado Civil: Soltero.</li>
+		<li>Hijos: No.</li>
+		<li>Cel: 3814471074.</li>
+                <li>E-Mail: crissariel17@gmail.com.</li>
+                <li>E-Mail opcional: ariel_17_@hotmail.com.</li>                
+            </ul>
+
+            <ul id="Aptitud" class="alineado"><h3 id="Apt">Aptitudes</h3>    <!--id="Apt": marcador a dicha sección-->
+                <li>Iniciativa.</li>
+                <li>Trabajo en equipo.</li>
+                <li>Comunicación clara y constante.</li>
+                <li>Capacidad de liderazgo.</li>
+            </ul>
+            
+            <ul id="Educ" class="alineado"><h3 id="Ed">Educación</h3>      <!--id="Ed": marcador a dicha sección-->
+                <li>Del 2000 al 2005 - Instituto Privado Tucumán - Polimodal Ciencias Naturales.</li>
+                <li>Del 2006 al 2008 - Ing en Computación - Universidad Nacional de Tucumán.</li>
+                <li>Del 2010 al 2011 - Lic en Informática - Universidad Nacional de Tucumán.</li>
+                <li>Del 2010 al 2012 - Programador Universitario - Universidad Nacional de Tucumán.</li>
+            </ul>
+
+            <ul id="Cursos" class="alineado"><h3 id="Cursos-R">Cursos Realizados</h3>      <!--id="Cursos-R": marcador a dicha sección-->
+                <li>Año 2005 - Técnico Operador de PC - INI Computación.</li>
+                <li>Año 2006 - Técnico Reparador de PC - INI Computación.</li>
+                <li>Año 2022 - Sé Programar - Ministerio de Desarrollo Productivo Argentina, INTI.</li>
+            </ul>
+
+            <ul id="Exp-L" class="alineado"><h3 id="Exp-Lab">Experiencia Laboral</h3>         <!--id="Exp-Lab": marcador a dicha sección-->
+                <li>Del 10/2010 a la fecha - Atento (call center) - Asesor (Soporte tec y ventas), manejo de sistemas.</li>
+                <li>Del 2015 a la fecha - Técnico independiente - Mantenimiento y reparación de pc.</li>
+            </ul>
+
+            <ul id="Objet" class="alineado"><h3 id="Obj">Objetivos</h3>         <!--id="Obj": marcador a dicha sección-->
+                <li>Mejorar mi desempeño en la empresa.</li>
+                <li>Crear una buena relación ambiente laboral.</li>
+                <li>Mantener una comunicación constante y clara con compañeros y superiores.</li>
+            </ul>
+
+            <ul id="Act-I" class="alineado"><h3 id="Act-Inde">Actividades Independientes</h3>           <!--id="Act-Inde": marcador a dicha sección-->
+                <li>Realizar diversos cursos para poder mantenerme capacitado en mi ámbito laboral.</li>
+                <li>Realizar diversas actividades que me permitan crecer en mis actividades de interés personal.</li>
+            </ul>
+
+	    <ul class="alineado"><h3 id="Certificado"><a href="certificados.html">Observe mís Certificados</a></h3>             <!--id="Link de certificados-->
+		
+	    </ul>
+
+	    <ul class="alineado"><h3 id="Comentario">Déjame tu Comentario</h3>              <!--id="Comentario" marcador de dicha sección-->
+		
+	    </ul>
+
+        </article>
+
+	<article>
+
+		<form name="comentarios" action="mailto:crissariel@gamil.com" onsubmit="return validacionDatosObligatorios()" method="post">
+
+			<fieldset>
+			<legend>Información Personal:</legend>
+
+  			<label for="nombre">Nombre (*)</label><br>
+  			<input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre"><br>
+
+  			<label for="apellido">Apellido (*)</label><br>
+			<input type="text" id="apellido" name="apellido" placeholder="Escribe tu apellido"><br><br>
+
+			<label for="email">E-mail (*)</label><br>
+			<input type="email" id="aemail" name="email" placeholder="Escribe tu e-mail"><br><br>
+
+			</fieldset>
+			<fieldset>
+			<legend>Información Adicional</legend>
+
+			<P><b>Tu eres?</b></P>
+			<input type="radio" id="individuo" name="fav_language" value="individuo">
+  			<label for="individuo">Individuo</label>
+
+  			<input type="radio" id="empresa" name="fav_language" value="empresa">
+  			<label for="empresa">Empresa</label><br>
+
+			<P><b>Escribe tu comentario u observación (*)</b></P>
+			<textarea name="mensaje" rows="10" cols="30" placeholder="Déjame tu opinion."></textarea>
+			<P><b>(*) Campos obligatorios.</b></P>
+
+			</fieldset><br>
+
+			<input type="submit" value="Enviar">
+			<input type="reset" value="Borrar">
+		</form>
+
+
+
+	    <ul id="Inicio" class="alineado"><a href="#Inicio"><img src="arriba-icono.png" alt="Arriba" id="arriba"></a>   <!--"#Inicio": marcador para ir a la parte superior de la página-->
+	    </ul>
+
+        </article>
+
+    </section>
+
+    <footer>
+
+	<div id="pie"> 
+
+		<ul id="pie">
+
+			<li><a href ="https://es.wikipedia.org/wiki/Copyright" id="copyright"> Copyright © 2023 </a> &nbsp;&nbsp;
+
+			<li><a href ="mailto:crissariel17@gmail.com"><img src="gmail-icono.png" alt="E-Mail:C Barrientos" id="gmail"></a> &nbsp;&nbsp;
+
+			<li><a href="mailto:ariel_17_@hotmail.com"><img src="outlook_icono.jpg" alt="E-Mail:C Barrientos" id="outlook"></a> &nbsp;&nbsp;
+
+			<li><a href="https://github.com/Criss-Ariel?tab=projects"><img src="github_icono.png" alt="CV en GitHub" id="github"></a> 
+
+		</ul>
+
+	</div>
+
+    </footer>
+
+    </body>
+</html>

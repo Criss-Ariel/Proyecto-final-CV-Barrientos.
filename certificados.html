@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Viewport sirve para adaptar la web a los distintos dispositivos-->
+    <title>CV: Certificados</title>
+    <link rel="icon" type="image/x-icon" href="Icono.jpg"> <!--Fav icon es el icono de la web-->
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <link rel="stylesheet" type="text/css" href="estilo-galeria.css">
+
+    <style> 
+
+	.flex-container {  	/**Estilo del encabezado con foto y nombre*/
+  		display: flex;
+  		align-items: stretch;
+  		background-color:blue;
+	}
+
+	.flex-container > div {
+ 		background-color:fff;
+  		width: 500px;
+  		margin: 10px;
+  		text-align: center;
+  		line-height: 75px;
+  		font-size: 30px;
+	}
+
+
+
+	.dropdown {   	      /**Estilo del menú desplegable, en este caso aplicado a texto con contenido desplegable*/
+          position: relative;
+          display: inline-block;
+        }
+        
+        .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #f9f9f9f9;
+          min-width: 160px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,2);
+          z-index: 1;
+        }
+        
+        .dropdown-content a {
+          color: black;
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+        }
+        
+        .dropdown-content a:hover {
+            background-color: #e0dfdf;
+            color: blue;       
+        }
+        
+        .dropdown:hover .dropdown-content {
+          display: block;
+        }
+
+
+    </style> 
+
+</head>
+
+<body>
+
+	<header>
+
+            <h2> Currículum Vitae </h2>
+
+	    <div class="flex-container">   <!--Encabezado con foto y nombre-->
+  		<div style="margin-left: 85px"><img src="Barrientos.jpg" alt="Foto del postulante" style="width: 72%; height: 97%;"></div>
+  		<div style="flex-basis: 1000px"> <h1>Barrientos Molina Christopher Ariel</h1></div>
+    
+	   </div>
+
+       </header>
+
+	
+       <section>
+
+		<article>
+  
+	   		 <div id="whatsapp">      <!--Ubicación del icono de whatsapp-->			
+				<a href="https://api.whatsapp.com/send?phone=5493814471074" class="btn-wsp" target="_blank"><img src="https://irp-cdn.multiscreensite.com/cdf69c36/dms3rep/multi/whatsapp_icon.png" border="0">
+				<i class="icon-whatsapp"></i>
+				</a>
+	    		</div>
+
+		</article>
+
+		<article>
+			<div id="menudesplegable">       <!--Texto con contenido desplegable-->
+           			 <div class="dropdown"> 
+                   			<span><h3><b>Mí Información</b></h3></span>
+               	    
+					<div class="dropdown-content">
+
+                   			<a href="index.html#Datos-Per">Datos Personales</a>  <!--"#Datos Per": marcador a dicha sección-->
+                    			<a href="index.html#Apt">Aptitudes</a>
+                    			<a href="index.html#Ed">Educación</a>
+                    			<a href="index.html#Cursos-R">Cursos Realizados</a>
+                   			<a href="index.html#Exp-Lab">Experiencia Laboral</a>
+                   			<a href="index.html#Obj">Objetivos</a>
+                   			<a href="index.html#Act-Inde">Actividades Independientes</a>
+					<a href="index.html#Comentario">Déjame tu Comentario</a>
+					
+
+                       			</div>
+                    		  </div>
+	         	</div>
+
+		</article>
+
+    	</section>
+
+		<!--Imágenes de los certificados-->
+
+		<h4>Certificados</h4>
+		<h5>(Haz clic para agrandar)</h5>
+		
+		<ul class="galeria">
+			<li><a href="#img1"> <img src="Tecnico Operador de PC.jpg" alt="Tecnico Operador de PC"> </a></li>
+			<li><a href="#img2"> <img src="Tecnico Reparador de PC.jpg" alt="Tecnico Reparador de PC"> </a></li>
+			<li><a href="#img3"> <img src="Marketing Personal.jpg" alt="Marketing Personal"> </a></li>
+			<li><a href="#img4"> <img src="Certificado Perito en Accidente de Transito.jpg" alt="Certificado Perito en Accidente de Transito"> </a></li>			
+		</ul>
+
+		<div class="modal" id="img1">
+			<h3>Técnico Operador de PC</h3>
+			<div class="imagen">
+				<a href="#img4">&#60;</a>
+				<a href="#img2"><img src="Tecnico Operador de PC.jpg" alt="Tecnico Operador de PC"></a>
+				<a href="#img2">></a>
+			</div>
+			<a class="cerrar" href="">X</a>
+		</div>
+	
+		<div class="modal" id="img2">
+			<h3>Técnico Reparador de PC</h3>
+			<div class="imagen">
+				<a href="#img1">&#60;</a>
+				<a href="#img3"><img src="Tecnico Reparador de PC.jpg" alt="Tecnico Reparador de PC"></a>
+				<a href="#img3">></a>
+			</div>
+			<a class="cerrar" href="">X</a>
+		</div>
+	
+		<div class="modal" id="img3">
+			<h3>Marketing Personal</h3>
+			<div class="imagen">
+				<a href="#img2">&#60;</a>
+				<a href="#img4"><img src="Marketing Personal.jpg" alt="Marketing Personal"></a>
+				<a href="#img4">></a>
+			</div>
+			<a class="cerrar" href="">X</a>
+		</div>
+	
+		<div class="modal" id="img4">
+			<h3>Certificado de Perito en Accidente de Transito</h3>
+			<div class="imagen">
+				<a href="#img3">&#60;</a>
+				<a href="#img1"> <img src="Certificado Perito en Accidente de Transito.jpg" alt="Certificado Perito en Accidente de Transito"></a>
+				<a href="#img1">></a>
+			</div>
+			<a class="cerrar" href="">X</a>
+		</div>
+	
+
+
+
+	 </section>
+
+
+	 <footer>
+
+		<div id="pie"> 
+
+			<ul id="pie">
+
+				<li><a href ="https://es.wikipedia.org/wiki/Copyright" id="copyright"> Copyright © 2023 </a> &nbsp;&nbsp;
+
+				<li><a href ="mailto:crissariel17@gmail.com"><img src="gmail-icono.png" alt="E-Mail:C Barrientos" id="gmail"></a> &nbsp;&nbsp;
+
+				<li><a href="mailto:ariel_17_@hotmail.com"><img src="outlook_icono.jpg" alt="E-Mail:C Barrientos" id="outlook"></a> &nbsp;&nbsp;
+
+				<li><a href="https://github.com/Criss-Ariel?tab=projects"><img src="github_icono.png" alt="CV en GitHub" id="github"></a> 
+
+			</ul>
+
+		</div>
+
+       </footer>
+
+</body>
+</html>
